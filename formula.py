@@ -42,44 +42,17 @@
     Saída	
 
     2.3333333
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-⌄
-⌄
-a = 0
-b = 0
-c = 0
-
-def funcao(a,b,c):
-  soma = a + b + c
-if (soma != 0):
-  resultado = (a * a + b * b + c * c) / soma
-return resultado
- 
+"""
 
 
-a = (int(input("Informe o valor de a :")))
-b = (int(input("Informe o valor de b : ")))
-c = (int(input("Informe o valor de C :")))
-print(funcao(round(a,b,c)))
-  
-  
-  git"""
+def formula(a, b,c):
+    soma = a+b+c
+    if soma != 0:
+      resultado = ((a * a + b *b + c * c)/soma)
+      return resultado
+    else:
+       return print("Informe novamente o valor da soma: ")
+
+
+resultado = formula(1,2,3)
+print(round(resultado,7))
