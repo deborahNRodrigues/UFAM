@@ -12,5 +12,5 @@ def remover_aluno(lista, nome):
  return lista
 print("Informe o nome do aluno que será removido", remover_aluno(lista=turma,nome='Teste'))
 
-def listar_alunos(lista):
+
 #listar todos os alunos da turma
