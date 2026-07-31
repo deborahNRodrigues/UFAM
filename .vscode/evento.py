@@ -50,7 +50,9 @@ def contador_pais(pais):
      contagem[4]+=1
 
  return contagem
+
 entrada = ("ES,BE,ES,PT,ES")
-print(contador_pais(entrada))
 resultado = contador_pais(entrada)
-print(max(resultado))
+maior = max(resultado)
+print(maior)
+print(resultado)
